@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
-
+    compileSdk 34
+    namespace "com.example.beeradviser"
     defaultConfig {
         applicationId "com.example.beeradviser"
         minSdk 24
-        targetSdk 32
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
